@@ -1,0 +1,41 @@
+.about {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.about .about-bottom-secion {
+  margin-top: 200px;
+}
+.about .about-bottom-secion .client {
+  max-width: 676px;
+  min-height: 150px;
+  margin-bottom: 38px;
+  display: flex;
+}
+.about .about-bottom-secion .client .client-image {
+  width: 260px;
+  height: 150px;
+  background-image: url(../images/profile1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.about .about-bottom-secion .client .client-quote {
+  position: relative;
+  min-height: 50px;
+  width: 100%;
+  padding-left: 25px;
+}
+.about .about-bottom-secion .client .client-quote p:last-of-type {
+  margin-bottom: 25px;
+}
+.about .about-bottom-secion .client .client-quote .client-name {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .about {
+    padding: 10px;
+  }
+}
