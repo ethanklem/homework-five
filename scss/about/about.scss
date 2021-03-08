@@ -9,37 +9,61 @@
         font-family: GillSans;
         font-size: 16px;
         
+        
 
         h1 {
-            font-family: PThin;
-            text-decoration: underline;
+            //font-family: ExtraCondense;
+            text-transform: uppercase;
+            //font-weight: lighter;
+            border-bottom: 2px solid black;
+            display: inline-block;
+            padding-right: 30px;
             font-size: 60px;
+            padding-bottom: 10px;
+            font-family: proxima-nova-condensed, sans-serif;
+            font-weight: 200;
+            font-style: normal;
             
+            
+        }
+
+        p {
+            padding-top: 13px;
         }
     }
     
 
     .about-bottom-secion {
         margin-top: 120px;
-        padding-bottom: 153px;
+        padding-bottom: 117px;
 
         h3 {
-            font-family: PThin;
-            text-decoration: underline;
+            //font-family: ExtraCondense;
+            text-transform: uppercase;
+            //font-weight: lighter;
+            border-bottom: 2px solid black;
+            display: inline-block;
+            padding-right: 30px;
             font-size: 40px;
+            padding-bottom: 12px;
+            font-family: proxima-nova-condensed, sans-serif;
+            font-weight: 200;
+            font-style: normal;
         }
 
         .client {
+            padding-top: 14px;
             max-width: 676px;
             min-height: 150px;
-            margin-bottom: 38px;
+            margin-bottom: 16px;
             display: flex;
             font-family: GillSans;
+            font-style: italic;
             font-size: 16px;
 
 
             .client-image1 {
-                width: 260px;
+                width: 450px;
                 height: 150px;
                 background-image: url(../images/about-client-01.jpg);
                 background-size: cover;
@@ -50,7 +74,7 @@
             }
 
             .client-image2 {
-                width: 260px;
+                width: 450px;
                 height: 150px;
                 background-image: url(../images/about-client-02.jpg);
                 background-size: cover;
@@ -80,8 +104,12 @@
                     bottom: 0;
                     color: $site-blue;
                     font-size: 20px;
-                    font-family: Proxima;
+                    //font-family: PThin;
+                    font-family: proxima-nova-condensed, sans-serif;
+                    font-weight: 200;
+                    font-style: normal;
                     
+                   
                 
                 }
             }
