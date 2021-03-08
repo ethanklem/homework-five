@@ -19,7 +19,6 @@
             display: inline-block;
             padding-right: 30px;
             font-size: 60px;
-            padding-bottom: 10px;
             font-family: proxima-nova-condensed, sans-serif;
             font-weight: 200;
             font-style: normal;
@@ -45,7 +44,6 @@
             display: inline-block;
             padding-right: 30px;
             font-size: 40px;
-            padding-bottom: 12px;
             font-family: proxima-nova-condensed, sans-serif;
             font-weight: 200;
             font-style: normal;
@@ -60,6 +58,7 @@
             font-family: GillSans;
             font-style: italic;
             font-size: 16px;
+            
 
 
             .client-image1 {
@@ -80,6 +79,8 @@
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-position: center;
+                
+               
             }
     
             .client-quote {
@@ -88,6 +89,7 @@
                 min-height: 50px;
                 width: 100%;
                 padding-left: 25px;
+                
 
                 p {
                     &:last-of-type {
@@ -106,8 +108,9 @@
                     font-size: 20px;
                     //font-family: PThin;
                     font-family: proxima-nova-condensed, sans-serif;
-                    font-weight: 200;
+                    font-weight: 100;
                     font-style: normal;
+                    text-transform: uppercase;
                     
                    
                 
