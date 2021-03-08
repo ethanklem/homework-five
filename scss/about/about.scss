@@ -2,18 +2,31 @@
     max-width: 980px;
     // background-color: aquamarine;
     margin: 0 auto;
+    padding-top: 98px;
 
 
     .about-top-section {
+        font-family: GillSans;
+        font-size: 16px;
+        
 
+        h1 {
+            font-family: PThin;
+            text-decoration: underline;
+            font-size: 60px;
+            
+        }
     }
     
 
     .about-bottom-secion {
-    margin-top: 200px;
+        margin-top: 120px;
+        padding-bottom: 153px;
 
         h3 {
-
+            font-family: PThin;
+            text-decoration: underline;
+            font-size: 40px;
         }
 
         .client {
@@ -21,40 +34,29 @@
             min-height: 150px;
             margin-bottom: 38px;
             display: flex;
+            font-family: GillSans;
+            font-size: 16px;
 
 
-            .client-image {
+            .client-image1 {
                 width: 260px;
                 height: 150px;
-                background-image: url(../images/profile1.jpeg);
+                background-image: url(../images/about-client-01.jpg);
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-position: center;
 
 
-                // .client1 {
-                //     background-image: url(../images/profile1.jpeg);
-                //     background-size: cover;
-                //     background-repeat: no-repeat;
-                //     background-position: center;
-
-                // }
-
-                
-                // .client2 {
-                //     background-image: url(../images/profile2.jpg);
-                //     background-size: cover;
-                //     background-repeat: no-repeat;
-                //     background-position: center;
-
-                // }
-
-                // img {
-                //     width: 100%;
-                    
-                // }
             }
-    
+
+            .client-image2 {
+                width: 260px;
+                height: 150px;
+                background-image: url(../images/about-client-02.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
     
             .client-quote {
                 position: relative;
@@ -66,6 +68,7 @@
                 p {
                     &:last-of-type {
                         margin-bottom: 25px;
+                       
                     }
                 }
 
@@ -75,6 +78,10 @@
                     position: absolute;
                     right: 0;
                     bottom: 0;
+                    color: $site-blue;
+                    font-size: 20px;
+                    font-family: Proxima;
+                    
                 
                 }
             }
@@ -88,13 +95,12 @@
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 980px) {
     .about {
 
         padding: 10px;
+        padding-top: 98px;
 
-       .about-bottom-secion {
-
-       }
+      
     }
 }

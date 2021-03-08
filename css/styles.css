@@ -27,6 +27,10 @@ p {
   font-family: Proxima;
   src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
 }
+@font-face {
+  font-family: PThin;
+  src: url(../fonts/Proxima-Nova-Thin.otf);
+}
 .hero {
   max-width: 1280px;
   height: 500px;
@@ -598,10 +602,11 @@ nav .line {
   justify-content: space-between;
   border-bottom: black solid 2px;
   font-family: GillSans;
+  margin-top: 27px;
 }
 .navabout .logoabout {
   width: 92px;
-  height: 42px;
+  height: 38px;
   border-color: black;
   border-style: solid;
   border-width: 2px;
@@ -609,7 +614,7 @@ nav .line {
 .navabout .logoabout p {
   font-size: 20px;
   color: black;
-  margin-top: 19px;
+  margin-top: 17px;
   letter-spacing: 1.8px;
 }
 .navabout .linksabout {
@@ -653,20 +658,46 @@ nav .line {
 .about {
   max-width: 980px;
   margin: 0 auto;
+  padding-top: 98px;
+}
+.about .about-top-section {
+  font-family: GillSans;
+  font-size: 16px;
+}
+.about .about-top-section h1 {
+  font-family: PThin;
+  text-decoration: underline;
+  font-size: 60px;
 }
 .about .about-bottom-secion {
-  margin-top: 200px;
+  margin-top: 120px;
+  padding-bottom: 153px;
+}
+.about .about-bottom-secion h3 {
+  font-family: PThin;
+  text-decoration: underline;
+  font-size: 40px;
 }
 .about .about-bottom-secion .client {
   max-width: 676px;
   min-height: 150px;
   margin-bottom: 38px;
   display: flex;
+  font-family: GillSans;
+  font-size: 16px;
 }
-.about .about-bottom-secion .client .client-image {
+.about .about-bottom-secion .client .client-image1 {
   width: 260px;
   height: 150px;
-  background-image: url(../images/profile1.jpeg);
+  background-image: url(../images/about-client-01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.about .about-bottom-secion .client .client-image2 {
+  width: 260px;
+  height: 150px;
+  background-image: url(../images/about-client-02.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -684,10 +715,14 @@ nav .line {
   position: absolute;
   right: 0;
   bottom: 0;
+  color: #79ADDC;
+  font-size: 20px;
+  font-family: Proxima;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 980px) {
   .about {
     padding: 10px;
+    padding-top: 98px;
   }
 }
